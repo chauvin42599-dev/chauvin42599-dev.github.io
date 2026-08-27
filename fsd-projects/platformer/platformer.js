@@ -41,7 +41,6 @@ createPlatform (900,400,300,20)
 createPlatform (1200,500,200,10)
 createPlatform (900,600,200,10)
 
- .3
 
 
     // TODO 3 - Create Collectables
