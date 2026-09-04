@@ -44,7 +44,7 @@ createPlatform (900,600,200,10);
 
 
     // TODO 3 - Create Collectables
-
+createcollectable()
 
 
     
