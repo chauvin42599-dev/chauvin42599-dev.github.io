@@ -9,7 +9,7 @@
     .box {
       width: 70px;
       height: 70px;
-      background-color: teal;
+      background-color: rgb(255, 0, 238);
       font-size: 300%;
       text-align: center;
       user-select: none;
@@ -22,6 +22,9 @@
 
     .board {
       height: 100vh;
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShLqxD7zeDb0svtlToqSMZMHWyE3qNOt6HJ6lWzhOcmuwCMV_rRsHCM-fJ:https://s.yimg.com/lo/mysterio/api/7e03256a8ad535ca78090abc393ada01226c6142f906852a872a62d2fd9b854d/lightyear_networkapi/resizefill_w1200%253Bquality_80%253Bformat_jpg/https%253A%252F%252Fmedia.zenfs.com%252Fen%252Fthe_drive_634%252F65ac00b7360d0ad0f23147c3a94c76ee&s=10");
+      background-repeat:no-repeat;
+      background-size:cover;
     }
   </style>
   <!-- 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
@@ -121,7 +124,7 @@
         points++;
         changeBoxText(points);
         speed = 3 * points + 10;
-
+        
       }
 
 
